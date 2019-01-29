@@ -138,7 +138,7 @@ let knxConnection = knx.Connection(Object.assign({
               onKnxEvent(evt, dst, value);
           }
       }
-  }}, config.knx.options));
+  }}, config.knx));
 
   let getBitLength = function(dpt) {
       if (dpt === 'dpt1') {
